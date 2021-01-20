@@ -6,17 +6,17 @@
 		BSB
 	</title>
 </head>
-<body class="black-background-color top-padding-20-percent-of-viewport">
+<body class="black-background-color top-padding-10-percent-of-viewport">
 
 <img class="horizontally-centered-image logo-zize-constraint" src="bsb logo.png" alt="logo">
 
-<h1 class="white-text-color horizontally-centered-text double-height-text text-2-em">
-	B S B
+<h1 class="white-text-color horizontally-centered-text text-10-vh">
+	BSB
 </h1>
 
-<p class="white-text-color horizontally-centered-text text-2-em">
+<h2 class="white-text-color horizontally-centered-text text-5-vh">
 	Épületgépészet
-</p>
+</h2>
 
 <div class="horizontally-centered-text">
 	<span class="margin-left-right-1vh">
@@ -35,6 +35,14 @@
 </body>
 </html>
 <style type="text/css">
+	h1{
+		margin-top: 0.2em;
+		margin-bottom: 0.2em;
+	}
+	h2{
+		margin-top: 0.2em;
+		margin-bottom: 1em;
+	}
 	.circle-shadow-on-hover:hover{
 		box-shadow: 0vh 0vh 0.5vh 1vh rgba(255, 255, 255, 0.2);
 		border-radius: 50%;
@@ -65,14 +73,15 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.top-padding-20-percent-of-viewport{
-		padding-top: 20vh;
+	.top-padding-10-percent-of-viewport{
+		padding-top: 10vh;
 	}
 	.logo-zize-constraint{
 		width:auto;
 		height:40vh;
 	}
 	.double-height-text{
+		transform: scaleY(2);
 		-webkit-transform: scaleY(2);
     	-moz-transform: scaleY(2);
 	}
@@ -80,7 +89,10 @@
 		width:auto;
 		height:8vh;
 	}
-	.text-2-em{
-		font-size: 2em;
+	.text-5-vh{
+		font-size: 5vh;
+	}
+	.text-10-vh{
+		font-size: 10vh;
 	}
 </style>
